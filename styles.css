@@ -1,0 +1,111 @@
+body{
+  background-color: #dfe7fe;
+  text-align: center;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.background{
+  margin: auto;
+  background-size: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.dance{
+  position: relative;
+  top: 50px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.body{
+  margin: auto;
+  position: relative;
+  top: 10px;
+  background-color: white;
+  height: 500px;
+  width: 450px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+h1{
+  font-weight: 900;
+  padding-top: 40px;
+}
+
+.description{
+  width: 60%;
+  margin: auto;
+  font-size: 16px;
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.inner-box{
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 30px;
+  height: 95px;
+  width: 390px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+}
+
+.plan{
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.price{
+  margin-top: 5px;
+}
+
+.change{
+  padding-left: 100px;
+  font-weight: 700;
+}
+
+.payment {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: 'Red Hat Display';
+   font-size: 20px;
+   padding: 10px 100px 10px 100px;
+   background-color: #3D94F6;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin: 20px auto 20px auto;
+
+}
+
+.payment:hover {
+   background: #1E62D0;
+   border: solid #337FED 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+
+.attribution { font-size: 11px; text-align: center; position: relative; top: 50px;}
+.attribution a { color: hsl(228, 45%, 44%); }
